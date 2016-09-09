@@ -65,6 +65,7 @@ public class BlockMachine extends BlockContainerPL implements IMultiMetaBlock {
     static {
         internalNameList.add("CarbonizeFurnace");
         internalNameList.add("HeatDryer");
+        internalNameList.add("ChainSawCutter");
     }
 
     public BlockMachine() {
@@ -76,6 +77,7 @@ public class BlockMachine extends BlockContainerPL implements IMultiMetaBlock {
 
         PLBlocks.carbonizeFurnace = new ItemStack(this, 1, 0);
         PLBlocks.heatDryer = new ItemStack(this, 1, 1);
+        PLBlocks.chainSawCutter = new ItemStack(this, 1, 2);
     }
 
     @Override

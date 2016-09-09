@@ -43,6 +43,8 @@ public class PLBlocks {
     public static ItemStack compressedWaterHyacinth;
     public static ItemStack carbonizeFurnace;
     public static ItemStack heatDryer;
+    public static ItemStack chainSawCutter;
+
     public static ItemStack evsu;
     public static ItemStack cseu;
     public static ItemStack parallelSpaceSU;
